@@ -109,7 +109,7 @@
   },
   "variables": {
     "apiVersionStorage": "2016-01-01",
-    "witnessStorageName": "[concat(parameters('namePrefix'),'sqlwitness')]",
+    "witnessStorageName": "pamsqlwitness",
     "witnessStorageType": "Standard_LRS",
     "vmNamePrefix": "[concat(parameters('namePrefix'),'0300003')]",
     "vmAvailabilitySetName": "[concat(parameters('namePrefix'),’-as-sql-01‘)]",
