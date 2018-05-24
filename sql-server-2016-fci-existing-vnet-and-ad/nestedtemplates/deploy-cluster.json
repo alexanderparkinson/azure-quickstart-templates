@@ -112,7 +112,7 @@
     "witnessStorageName": "[concat(parameters('namePrefix'),'sqlwitness')]",
     "witnessStorageType": "Standard_LRS",
     "vmNamePrefix": "[concat(parameters('namePrefix'),'0300003')]",
-    "vmAvailabilitySetName": "[concat(variables('namePrefix'),'-as-sql-01')]",
+    "vmAvailabilitySetName": "[concat(parameters('namePrefix'),'-as-sql-01')]",
     "clusterName": "[concat(Parameters('namePrefix'),'-Cluster')]",
     "sqlClusterName": "[concat(Parameters('namePrefix'),'-SQLCluster')]",
     "vmLoopTemplateURL": "[concat(parameters('_artifactsLocation'),'/nestedtemplates/newVM.json',parameters('_artifactsLocationSasToken'))]",
